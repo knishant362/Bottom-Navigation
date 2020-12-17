@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group >
+        <item
+            android:id="@+id/oneFragment"
+            android:title="@string/one"
+            android:icon="@drawable/ic_4k"
+            />
+        <item
+            android:id="@+id/twoFragment"
+            android:title="@string/two"
+            android:icon="@drawable/ic_5g"
+            />
+        <item
+            android:id="@+id/threeFragment"
+            android:title="@string/three"
+            android:icon="@drawable/ic_snow"
+            />
+    </group>
+</menu>

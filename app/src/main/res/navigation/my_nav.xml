@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/oneFragment">
+
+    <fragment
+        android:id="@+id/oneFragment"
+        android:name="com.trendster.bottomnavdemo.OneFragment"
+        android:label="One"
+        tools:layout="@layout/fragment_one"
+        />
+    <fragment
+        android:id="@+id/twoFragment"
+        android:name="com.trendster.bottomnavdemo.TwoFragment"
+        android:label="Two"
+        tools:layout="@layout/fragment_two" />
+    <fragment
+        android:id="@+id/threeFragment"
+        android:name="com.trendster.bottomnavdemo.ThreeFragment"
+        android:label="Three"
+        tools:layout="@layout/fragment_three" />
+</navigation>
